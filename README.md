@@ -2,6 +2,7 @@
 
 **Overview:**
 This project demonstrates the development of an AWS Lambda function using Python to automate file management tasks within an S3 bucket. It operates by triggering the Lambda function whenever a new file is added to the designated S3 bucket. Upon trigger, the function orchestrates the movement of the file to a folder structured as YYYYMMDD/filename, where YYYYMMDD denotes the creation date of the file.
+
 **Setup Instructions:**
 1. **Create an S3 Bucket:**
    - Log in to the AWS Management Console.
